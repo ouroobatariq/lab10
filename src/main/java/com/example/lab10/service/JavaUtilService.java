@@ -15,7 +15,7 @@ import java.util.function.Function;
 
 @Service
 public class JavaUtilService {
-    private final String secret = "farhan";
+    private final String secret = "ourooba";
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
